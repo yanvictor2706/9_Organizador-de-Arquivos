@@ -1,6 +1,6 @@
 // Lista dos arquivo
 let arquivos = ["musica_rock.mp3","musica_pop.mp3","foto_capa.png","musica_jazz.wav","podcast_ep1.mp3","foto_show.jpg","musica_indie mp3","podcast_ep2.mp3","ensaio_audio.wav","foto_banda.png","musica_samba.mp3","video_clipe.mp4"];
-let recebe = prompt
+let recebe = prompt("Procure o trabalho:")
 // apenas musicas mp3
 let soMp3 = arquivos.filter(a => a.endsWith(".mp3"));
 
